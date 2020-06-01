@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    max-width: 1000px;
+    margin:auto;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline;
+    float: right;
+    margin-top: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 5px;
+    border: 2px solid transparent;
+    font-size: 14px;
+    margin-right:5px;
+    transition: 0.5s ease;
+
+}
+
+ul li a:hover{
+    color: white;
+    background-color: purple;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 25px;
+    color: purple;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+h1 span{
+    color: gold;
+}
+
+.image1{
+    width: 100%;
+    margin-top: 25px;
+    height: 500px;
+    
+}
+
+#style{
+    color: gold; 
+}
+
+.text1{
+    font-size: 40px;
+    position: absolute;
+    top: 190px;
+    left: 300px;
+    color: white;
+}
+
+.text2{
+    font-size: 14px;
+    position: absolute;
+    top: 290px;
+    left: 300px;
+    color: white;
+}
+
+.links{
+    position: absolute;
+    top: 340px;
+    left: 300px;
+}
+
+.links a{
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 8px 15px;
+    color: white;
+    margin-right: 10px;
+    background-color: purple;
+    transition: 0.5s ease;
+    
+}
+
+.links a:hover{
+    background-color: #272727;   
+}
+
+.image_text{
+    display: inline;
+    border: 2px solid;
+    margin-left: 50px;
+}
+
+.imageandtext{
+    width: 80px;
+}
